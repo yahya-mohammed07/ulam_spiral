@@ -12,7 +12,7 @@ enum directions {
 
 auto main() -> int
 {
-  matrix_<char, 27, 27> arr{};
+  matrix_<char, 213, 213> arr{};
   auto x        {arr.row() / 2};
   auto y        {arr.col() / 2};
   //
